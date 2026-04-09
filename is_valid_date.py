@@ -16,7 +16,6 @@ if __name__ == "__main__":
     print(is_valid_date(1938, 8, 31)) # True
     print(is_valid_date(1602, 9, 30)) # True
     print(is_valid_date(1602, 9, 31)) # False
-=======
 def is_valid_date(year: int, month: int, day: int) -> bool:
     if month < 1 or month > 12:
         return False
@@ -25,4 +24,4 @@ def is_valid_date(year: int, month: int, day: int) -> bool:
 
     max_days = days_in_month(year, month)
     return day <= max_days
->>>>>>> d937b524e02b98339a90ac6856f961e43a018595
+
